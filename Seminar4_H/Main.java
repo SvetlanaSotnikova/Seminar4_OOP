@@ -18,7 +18,7 @@ public class Main {
         System.out.println("size " + myList.size());
         myList.remove();
         System.out.println(myList);
-        myList.remove(4);  // вот эта штука очеень странно удаляет элемент
+        myList.remove(4); 
         System.out.println(myList);
         System.out.println("size " + myList.size());
         // не понимаю зачем я тогда размер объявляю в объявлении списка если он в любом случае
